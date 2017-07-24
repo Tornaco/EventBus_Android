@@ -160,3 +160,11 @@ public class Binding {
     }
 }
 ```
+
+### Proguard
+```
+# EventBus
+-keep class dev.nick.eventbus.** {*;}
+-keep public interface dev.nick.eventbus.** {*;}
+-keep public @interface dev.nick.eventbus.** {*;}
+```
